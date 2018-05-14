@@ -16,7 +16,7 @@ public class QAT2 {
 	 
 	 @Test
 	 public void verify() {
-		 System.setProperty("webdriver.chrome.driver", "C:\\SelDrivers\\chromedriver.exe");
+		 // System.setProperty("webdriver.chrome.driver", "C:\\SelDrivers\\chromedriver.exe");
 
 
 		  //  WebDriver driver = new FirefoxDriver();

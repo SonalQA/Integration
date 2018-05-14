@@ -19,7 +19,7 @@ public class QAT2 {
 		 // System.setProperty("webdriver.chrome.driver", "C:\\SelDrivers\\chromedriver.exe");
 
 
-		   WebDriver driver = new FirefoxDriver();
+		 FirefoxDriver driver = new FirefoxDriver();
 		  // WebDriver driver = new ChromeDriver();
 
 	       driver.get("http://blazemeter.com");

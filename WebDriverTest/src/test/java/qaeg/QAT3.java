@@ -7,27 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class QAT2 {
-	 @Test
-	 public void test() {
-		 WebDriver driver = new FirefoxDriver();
-	       driver.get("http://blazemeter.com");
-
-		 System.out.println("I am in src-test-java");
-		 
-	 }
-	 
+public class QAT3 {
+	 	 
 	 @Test
 	 public void verify() {
-		 // System.setProperty("webdriver.chrome.driver", "C:\\SelDrivers\\chromedriver.exe");
-
-
 		 WebDriver driver = new FirefoxDriver();
-		 // WebDriver driver = new ChromeDriver();
-/*		 FirefoxOptions options = new FirefoxOptions();
-		 options.addArgument("--headless");
-		 WebDriver driver = new FirefoxDriver(options);*/
-		 
 	       driver.get("http://blazemeter.com");
 
 	       WebElement title = driver.findElement(By.xpath("//title"));

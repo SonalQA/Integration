@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.example.grid.ParallelTest">
+        <methods>
+          <include name="dquit"/>
+        </methods>
+      </class> <!-- com.example.grid.ParallelTest -->
+      <class name="com.example.grid.ParallelTestFf">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.example.grid.ParallelTestFf -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

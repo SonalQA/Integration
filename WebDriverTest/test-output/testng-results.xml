@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31" started-at="2018-05-07T10:34:03Z" finished-at="2018-05-07T10:34:03Z">
+  <suite name="Default suite" duration-ms="5575" started-at="2018-08-03T11:29:59Z" finished-at="2018-08-03T11:30:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31" started-at="2018-05-07T10:34:03Z" finished-at="2018-05-07T10:34:03Z">
-      <class name="qaeg.QAT2">
-        <test-method status="PASS" signature="test()[pri:0, instance:qaeg.QAT2@5419f379]" name="test" duration-ms="16" started-at="2018-05-07T16:04:03Z" finished-at="2018-05-07T16:04:03Z">
+    <test name="Default test" duration-ms="5575" started-at="2018-08-03T11:29:59Z" finished-at="2018-08-03T11:30:05Z">
+      <class name="com.example.grid.DBCon">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.example.grid.DBCon@5e3a8624]" name="f" duration-ms="5544" started-at="2018-08-03T16:59:59Z" finished-at="2018-08-03T17:00:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- qaeg.QAT2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- f -->
+      </class> <!-- com.example.grid.DBCon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

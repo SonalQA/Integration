@@ -1,1 +1,13 @@
+com\example\grid\OppLogin.class
+com\example\grid\ParallelTestFf.class
+qaeg\QAT3.class
+com\example\grid\DBCon.class
+com\example\grid\InsyghtsLogin.class
+qaeg\ChromeRemoteDriver.class
+com\example\grid\SecondTest.class
+com\example\grid\ParallelTest.class
+com\example\grid\TestBase.class
 qaeg\QAT2.class
+com\example\grid\FirstTest.class
+qaeg\SelGrid.class
+qaeg\GridExampleTest.class

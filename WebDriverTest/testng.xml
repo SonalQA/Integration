@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" name="Suite" parallel="tests">
     <test name="FirstTest" thread-count="5" parallel="methods" >
-        <parameter name="browser" value="chrome"/>
+        <parameter name="browser" value="firefox"/>
         <classes>
             <class name="com.example.grid.FirstTest"/>
         </classes>

@@ -22,7 +22,8 @@ public class TestBase {
     @Parameters(value={"browser"})
     public void setupTest (String browser) throws MalformedURLException {
         //Set DesiredCapabilities
-        DesiredCapabilities capabilities = new DesiredCapabilities();
+        System.out.println("BrowserName is"+browser);
+    	DesiredCapabilities capabilities = new DesiredCapabilities();
         
         //Firefox Profile Settings
         /*if (browser=="firefox") {
@@ -41,20 +42,27 @@ public class TestBase {
         
         //Set Browser to ThreadLocalMap
         driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities));
+    	System.out.println("I have setCapability for the driver");
+
     }
  
     public WebDriver getDriver() {
         //Get driver from ThreadLocalMap
+    	System.out.println("I am giving the driver to test");
+
         return driver.get();
     }
  
     @AfterMethod
     public void tearDown() throws Exception {
+    	System.out.println("I am quitting the driver");
+
         getDriver().quit();
     }
  
     @AfterClass void terminate () {
         //Remove the ThreadLocalMap element
+    	System.out.println("I am removing the driver");
         driver.remove();
     }
 }

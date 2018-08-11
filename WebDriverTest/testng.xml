@@ -13,10 +13,10 @@
             <class name="com.example.grid.FirstTest"/>
         </classes>
     </test> <!-- SecondTest Ends -->
-  <!--      <test name="ThirdTest" thread-count="5" parallel="methods" >
+    <test name="ThirdTest" thread-count="5" parallel="methods" >
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.example.grid.FirstTest"/>
         </classes>
-    </test>  ThirdTest Ends -->
+    </test>   <!--   ThirdTest Ends -->
 </suite> <!-- Suite -->

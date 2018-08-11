@@ -42,7 +42,7 @@ public class TestBase {
         
         //Set Browser to ThreadLocalMap
         driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities));
-    	System.out.println("I have setCapability for the driver");
+    	System.out.println("I have setCapability for the driver"+browser);
 
     }
  
